@@ -1,8 +1,8 @@
 const typeorm = require("typeorm");
 
-const { BookEntity } = require("../entity/bookEntity");
-const { SubCategoryEntity } = require("../entity/subCategoryEntity");
-const { CategoryEntity } = require("../entity/categoryEntity");
+const BookEntity = require("./src/entity/bookEntity");
+const SubCategoryEntity = require("./src/entity/subCategoryEntity");
+const CategoryEntity = require("./src/entity/categoryEntity");
 
 const entities = [BookEntity, SubCategoryEntity, CategoryEntity];
 
